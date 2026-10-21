@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "StocksAudio",
+    "slug": "stocksaudio",
+    "scheme": "stocksaudio",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router"
+    ],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#09090B"
+    },
+    "ios": {
+      "bundleIdentifier": "com.stocksaudio.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.stocksaudio.app",
+      "permissions": [
+        "INTERNET"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#09090B"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}
